@@ -16,4 +16,9 @@ for _ in 0 ..< 15{
     max.insert(item: Int(arc4random() % 100))
 }
 
-print(max.isEmpty)
+while !max.isEmpty{
+//    print(max.extractMax())
+    print(max.extractMax(), separator: " ", terminator: " ")
+}
+
+//print(max.isEmpty)
